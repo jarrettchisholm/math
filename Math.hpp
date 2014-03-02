@@ -1,21 +1,17 @@
-/*
- * Math.h
- *
- *  Created on: 2011-04-13
- *      Author: jarrett
- */
-
 #ifndef MATH_H_
 #define MATH_H_
 
-namespace math {
+namespace math
+{
+
 static const float PI = 3.14159265358979323846f;
 static const float RECIPROCAL_PI = 1.0f / PI;
 static const float HALF_PI = PI / 2.0f;
 static const float DEGTORAD = PI / 180.0f;
 static const float RADTODEG = 180.0f / PI;
 
-class Math {
+class Math
+{
 public:
 	Math();
 	virtual ~Math();
@@ -44,5 +40,7 @@ public:
 
 	static const int RANDOM_MAX = 32767;
 };
+
 }
+
 #endif /* MATH_H_ */

@@ -1,16 +1,11 @@
-/*
- * Math.cpp
- *
- *  Created on: 2011-04-13
- *      Author: jarrett
- */
-
-#include "Math.h"
-
 #include <math.h>
 #include <stdlib.h>
 
-namespace math {
+#include "Math.hpp"
+
+namespace math
+{
+
 Math::Math()
 {
 }
@@ -94,4 +89,5 @@ int Math::random()
 	   return (m_z << 16) + m_w;
 	 */
 }
+
 }
